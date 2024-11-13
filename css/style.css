@@ -195,21 +195,18 @@ nav#nav #menu {
   }
   #btn-mobile {
     display: flex;
-    padding: 0.5rem 1rem;
+    padding: .5rem 1rem;
     font-size: 1rem;
     border: none;
     border-radius: 8px;
     align-items: center;
-    width: calc(94% - 32px);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 120px 2%;
-    max-width: 500px;
-    border-radius: 5px;
-    border: 2px solid var(--green-color);
-    background-color: var(--header-color);
+    gap: .5rem;
+    color: var(--header-color);
+    font-family: "Poppins";
+    background-image: linear-gradient(45deg, #41f04f, #1a8103, #41f04f );
+    background-size: 400% 100%;
+    animation: gradient 10s ease-in-out infinite alternate;
+    cursor: pointer;
 }
 
     gap: 0.5rem;
