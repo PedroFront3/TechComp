@@ -490,7 +490,7 @@ form input[type=text]::placeholder {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -80%);
+    transform: translate(-50%, -30%);
     padding: 120px 2%;
     max-width: 500px;
     border-radius: 5px;
