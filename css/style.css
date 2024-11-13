@@ -200,7 +200,6 @@ nav#nav #menu {
     border: none;
     border-radius: 8px;
     align-items: center;
-   color:var(--header-color);
     width: calc(94% - 32px);
     position: absolute;
     top: 50%;
@@ -490,7 +489,7 @@ form input[type=text]::placeholder {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -30%);
+    transform: translate(-50%, -40%);
     padding: 120px 2%;
     max-width: 500px;
     border-radius: 5px;
